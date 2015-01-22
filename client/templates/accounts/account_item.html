@@ -1,0 +1,12 @@
+<template name="accountItem">
+	<tr>
+		<td>
+			<input type="checkbox" class="is-eligible">
+		</td>
+		<td>
+			{{#each emails}}
+				{{address}}
+			{{/each}}
+		</td>
+	</tr>
+</template>

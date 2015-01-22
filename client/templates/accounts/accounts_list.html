@@ -1,0 +1,15 @@
+<template name="accountsList">
+	<table class="table table-condensed">
+		<thead>
+		<tr>
+			<th>Eligible</th>
+			<th>User</th>
+		</tr>
+		</thead>
+		<tbody>
+			{{#each accounts}}
+				{{> accountItem}}
+			{{/each}}
+		</tbody>
+	</table>
+</template>
